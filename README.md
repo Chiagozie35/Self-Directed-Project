@@ -1,11 +1,11 @@
 
-📊 Sales Performance & Revenue Analysis (Excel Project)
+Sales Performance & Revenue Analysis (Excel Project)
 
- 📌 Project Overview
+Project Overview
 
 This project analyzes sales data to evaluate business performance across products, regions, and promotional strategies. It also includes time-based trend analysis and revenue forecasting to support better decision-making.
 
-🎯 Objectives
+Objectives
 
 * Understand key drivers of revenue
 * Evaluate the effectiveness of promotions
@@ -13,7 +13,7 @@ This project analyzes sales data to evaluate business performance across product
 * Analyze revenue trends over time
 * Generate a data-driven revenue forecast
 
- 🛠 Tools & Techniques
+ Tools & Techniques
 
 * Microsoft Excel
 * Pivot Tables
@@ -23,7 +23,7 @@ This project analyzes sales data to evaluate business performance across product
 * Forecasting (Excel ETS Model)
 * Data Visualization (Dashboard)
 
-📂 Dataset Description
+Dataset Description
 
 The dataset contains transactional sales data with the following fields:
 
@@ -36,7 +36,7 @@ The dataset contains transactional sales data with the following fields:
 
 Each row represents a single customer transaction.
 
- 🔍 Analysis Performed
+ Analysis Performed
 
 1. Product Analysis
 
@@ -62,7 +62,7 @@ Each row represents a single customer transaction.
 * Revenue forecast created using monthly aggregated data
 * Confidence intervals included to reflect uncertainty
 
- 📈 Key Insights
+ Key Insights
 
 * Promotions drive the majority of revenue, contributing 75.51% of total sales, while maintaining a similar average order value compared to non-promotional sales.
 
@@ -72,7 +72,7 @@ Each row represents a single customer transaction.
 
 * Revenue fluctuates over time, making monthly aggregation more reliable than daily data for trend analysis and forecasting.
 
- 💡 Business Recommendations
+ Business Recommendations
 
 * Continue using promotions as a key revenue driver, while monitoring their long-term impact on profitability
 
@@ -82,15 +82,8 @@ Each row represents a single customer transaction.
 
 * Use monthly revenue trends for planning inventory, staffing, and marketing strategies
 
- 🔮 Forecasting Approach
 
-A revenue forecast was developed using Excel’s forecasting tool based on monthly aggregated data to reduce volatility.
-
-* The forecast highlights expected future revenue trends
-* Confidence intervals indicate the range of possible outcomes
-* This approach improves reliability compared to using daily data
-
- 📊 Dashboard
+ Dashboard
 
 An interactive Excel dashboard was created to present:
 
@@ -102,7 +95,7 @@ An interactive Excel dashboard was created to present:
 
 The dashboard is designed to provide a quick and clear overview of business performance.
 
-📁 Project Structure
+Project Structure
 
 * `raw_sales_data` – Original dataset
 * `clean_sales_data` – Cleaned and structured data
@@ -115,7 +108,7 @@ The dashboard is designed to provide a quick and clear overview of business perf
 * `executive_dashboard` – Visual summary of insights
 * `business_recommendations` – Key findings and actions
 
- ✅ Skills Demonstrated
+ Skills Demonstrated
 
 * Data cleaning and preparation
 * Data analysis using Pivot Tables
@@ -124,6 +117,8 @@ The dashboard is designed to provide a quick and clear overview of business perf
 * Time series analysis and forecasting
 * Dashboard design and storytelling
 
-🚀 Key Takeaway
+Author
 
-This project demonstrates the ability to move beyond basic Excel usage and apply data analysis techniques to generate meaningful business insights and support decision-making.
+Chiagozie Elobi
+Data Analyst|Customer Service Professional
+
