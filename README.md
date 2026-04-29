@@ -42,7 +42,7 @@ Understanding these factors helps businesses make informed decisions around mark
 
 ## Dataset Overview
 
-The dataset contains transactional sales data.
+The dataset contains 1,501 transactional sales data.
 
 Each record represents a single customer transaction.
 
@@ -52,12 +52,10 @@ Key fields include:
 * Revenue
 * Product
 * Region
-* Promotion
 * Promo Type (Promo vs No Promo)
 
 The data was cleaned and structured to ensure accurate analysis and reporting.
 
----
 
 ## Analysis Performed
 
@@ -159,7 +157,8 @@ The dashboard includes:
 
 The dashboard is designed to support quick decision-making and highlight key business drivers.
 
----
+<img width="1342" height="605" alt="image" src="https://github.com/user-attachments/assets/0d78bc49-775a-41e5-828d-8e33df617474" />
+
 
 ## Project Structure
 
@@ -176,24 +175,7 @@ sales-performance-analysis │
 ├── business_recommendations
 └── README.md
 
----
 
-## Skills Demonstrated
-
-* Data cleaning and preparation
-* Data analysis using Pivot Tables
-* KPI development and interpretation
-* Business insight generation
-* Time series analysis and forecasting
-* Dashboard design and storytelling
-
----
-
-## Key Takeaway
-
-This project demonstrates the ability to transform raw transactional data into meaningful insights and actionable business recommendations, supporting data-driven decision-making.
-
----
 
 ## Author
 
