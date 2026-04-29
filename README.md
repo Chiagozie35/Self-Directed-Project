@@ -42,6 +42,9 @@ Understanding these factors helps businesses make informed decisions around mark
 
 ## Dataset Overview
 
+The Dataset used in this project comes from Excelx(https://excelx.com/practice-data/sales-retail/).
+The link is https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fexcelx.com%2Fwp-content%2Fuploads%2F2025%2F06%2FProduct-Sales-Region.xlsx&wdOrigin=BROWSELINK
+
 The dataset contains 1,501 transactional sales data.
 
 Each record represents a single customer transaction.
