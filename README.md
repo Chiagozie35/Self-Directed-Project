@@ -1,91 +1,155 @@
+# Sales Performance and Revenue Analysis
 
-Sales Performance & Revenue Analysis (Excel Project)
+## Project Overview
 
-Project Overview
+This project analyzes sales data to evaluate business performance across products, regions, and promotional strategies. The goal is to identify key revenue drivers, assess the effectiveness of promotions, and provide data-driven recommendations to support better decision-making.
 
-This project analyzes sales data to evaluate business performance across products, regions, and promotional strategies. It also includes time-based trend analysis and revenue forecasting to support better decision-making.
+Businesses rely on sales data to understand performance trends, optimize marketing strategies, and allocate resources effectively. By analyzing transactional data, this project highlights patterns in revenue generation, customer purchasing behavior, and regional performance.
 
-Objectives
+The analysis also incorporates time-based trend evaluation and revenue forecasting to provide forward-looking insights.
 
-* Understand key drivers of revenue
-* Evaluate the effectiveness of promotions
-* Identify top-performing products and regions
-* Analyze revenue trends over time
-* Generate a data-driven revenue forecast
+This project was completed using Microsoft Excel, with GitHub used to document and present the work.
 
- Tools & Techniques
+---
+
+## Business Objective
+
+The primary objective of this analysis is to understand the factors driving revenue and identify opportunities for business improvement.
+
+This project answers the following key questions:
+
+* Which products contribute the most to total revenue?
+* How effective are promotional strategies in driving sales?
+* Are there significant differences in regional performance?
+* How does revenue change over time?
+* What can be expected in future revenue trends?
+
+Understanding these factors helps businesses make informed decisions around marketing, inventory, and strategic planning.
+
+---
+
+## Tools and Techniques Used
 
 * Microsoft Excel
 * Pivot Tables
-* Data Cleaning & Transformation
+* Data Cleaning and Transformation
 * KPI Calculation
 * Time Series Aggregation (Monthly)
-* Forecasting (Excel ETS Model)
-* Data Visualization (Dashboard)
+* Forecasting using Excel ETS Model
+* Data Visualization (Dashboard Design)
 
-Dataset Description
+---
 
-The dataset contains transactional sales data with the following fields:
+## Dataset Overview
 
-* Order Date – Date of each transaction
-* Revenue – Sales amount per order
-* Product – Product purchased
-* Region – Sales location
-* Promotion – Promo code applied (if any)
-* Promo_Type – Categorized as *Promo* or *No Promo*
+The dataset contains transactional sales data.
 
-Each row represents a single customer transaction.
+Each record represents a single customer transaction.
 
- Analysis Performed
+Key fields include:
 
-1. Product Analysis
+* Order Date
+* Revenue
+* Product
+* Region
+* Promotion
+* Promo Type (Promo vs No Promo)
 
-* Revenue contribution by product
-* Identification of top-performing products
+The data was cleaned and structured to ensure accurate analysis and reporting.
 
-2. Regional Analysis
+---
 
-* Revenue distribution across regions
-* Comparison of regional performance
+## Analysis Performed
 
-3. Promotion Analysis
+### Product Analysis
 
-* Revenue contribution from promotional vs non-promotional sales
-* Average revenue per order comparison
+Revenue contribution by product was calculated to identify top-performing products.
 
-4. Time-Based Analysis
+### Regional Analysis
 
-* Monthly revenue trend to identify patterns and fluctuations
+Revenue distribution across regions was analyzed to compare geographic performance.
 
-5. Forecasting
+### Promotion Analysis
 
-* Revenue forecast created using monthly aggregated data
-* Confidence intervals included to reflect uncertainty
+Sales were segmented into promotional and non-promotional categories to evaluate the effectiveness of promotions.
+Average revenue per order was also calculated for comparison.
 
- Key Insights
+### Time-Based Analysis
 
-* Promotions drive the majority of revenue, contributing 75.51% of total sales, while maintaining a similar average order value compared to non-promotional sales.
+Monthly revenue trends were analyzed to identify patterns, fluctuations, and seasonality.
 
-* Revenue is moderately concentrated, with the top 3 products (Tablet, Laptop, Printer) contributing 46.89% of total revenue.
+### Forecasting
 
-* Regional performance is relatively balanced, with the North region leading at $967,957.98 and the South region lowest at $827,768.19.
+A revenue forecast was created using monthly aggregated data to reduce daily fluctuations.
+Confidence intervals were included to reflect uncertainty in future performance.
 
-* Revenue fluctuates over time, making monthly aggregation more reliable than daily data for trend analysis and forecasting.
+---
 
- Business Recommendations
+## Key Findings
 
-* Continue using promotions as a key revenue driver, while monitoring their long-term impact on profitability
+### Promotion Impact
 
-* Increase visibility of lower-performing products through targeted promotions or bundling strategies
+Promotions contribute **75.51% of total revenue**, while non-promotional sales account for **24.49%**.
+The average revenue per order is **$2,921.59** for promotional sales compared to **$2,915.08** for non-promotional sales.
 
-* Maintain strong performance in top regions while identifying opportunities to improve sales in slightly weaker regions
+This indicates that promotions drive a large share of revenue without significantly reducing order value.
 
-* Use monthly revenue trends for planning inventory, staffing, and marketing strategies
+---
 
+### Product Performance
 
- Dashboard
+The top three products (Tablet, Laptop, Printer) contribute approximately **46.89% of total revenue**.
 
-An interactive Excel dashboard was created to present:
+This shows a moderate concentration of revenue among key products.
+
+---
+
+### Regional Performance
+
+Revenue is relatively balanced across regions.
+
+* Highest: North – **$967,957.98 (22.10%)**
+* Lowest: South – **$827,768.19 (18.90%)**
+
+The difference between regions is small, indicating consistent performance across locations.
+
+---
+
+### Revenue Trends
+
+Revenue fluctuates over time rather than following a steady trend.
+
+This variability highlights the importance of analyzing data at a monthly level rather than daily, to better understand performance patterns.
+
+---
+
+### Forecast Insights
+
+The forecast suggests that future revenue will remain within a predictable range, with fluctuations similar to historical patterns.
+
+Confidence intervals indicate that actual revenue may vary within a defined range, emphasizing the need for flexible planning.
+
+---
+
+## Business Recommendations
+
+* Continue using promotions as a key revenue driver, while applying them strategically to maintain profitability
+
+* Maintain strong performance of top products while increasing visibility of lower-performing products through targeted promotions or bundling
+
+* Sustain performance in high-performing regions and implement targeted strategies to improve slightly weaker regions
+
+* Use monthly revenue trends to plan inventory, staffing, and marketing activities
+
+* Use forecast ranges (rather than single values) to guide planning and account for uncertainty
+
+---
+
+## Dashboard
+
+An interactive Excel dashboard was created to present key insights in a clear and concise format.
+
+The dashboard includes:
 
 * Key performance indicators (KPIs)
 * Monthly revenue trend
@@ -93,22 +157,28 @@ An interactive Excel dashboard was created to present:
 * Regional distribution
 * Promotion impact
 
-The dashboard is designed to provide a quick and clear overview of business performance.
+The dashboard is designed to support quick decision-making and highlight key business drivers.
 
-Project Structure
+---
 
-* `raw_sales_data` – Original dataset
-* `clean_sales_data` – Cleaned and structured data
-* `data_dictionary` – Description of all fields
-* `monthly_revenue` – Aggregated time-series data
-* `analysis_product` – Product-level analysis
-* `analysis_region` – Regional analysis
-* `analysis_promotion` – Promotion impact analysis
-* `forecast` – Revenue forecast and confidence intervals
-* `executive_dashboard` – Visual summary of insights
-* `business_recommendations` – Key findings and actions
+## Project Structure
 
- Skills Demonstrated
+sales-performance-analysis │
+├── raw_sales_data
+├── clean_sales_data
+├── data_dictionary
+├── monthly_revenue
+├── analysis_product
+├── analysis_region
+├── analysis_promotion
+├── forecast
+├── executive_dashboard
+├── business_recommendations
+└── README.md
+
+---
+
+## Skills Demonstrated
 
 * Data cleaning and preparation
 * Data analysis using Pivot Tables
@@ -117,8 +187,15 @@ Project Structure
 * Time series analysis and forecasting
 * Dashboard design and storytelling
 
-Author
+---
+
+## Key Takeaway
+
+This project demonstrates the ability to transform raw transactional data into meaningful insights and actionable business recommendations, supporting data-driven decision-making.
+
+---
+
+## Author
 
 Chiagozie Elobi
-Data Analyst|Customer Service Professional
-
+Data Analyst | Customer Service Professional
