@@ -160,7 +160,9 @@ The dashboard includes:
 
 The dashboard is designed to support quick decision-making and highlight key business drivers.
 
-<img width="1342" height="605" alt="image" src="https://github.com/user-attachments/assets/0d78bc49-775a-41e5-828d-8e33df617474" />
+<img width="1036" height="601" alt="image" src="https://github.com/user-attachments/assets/1de81a23-9130-42a1-a3c6-634724a9e654" />
+<img width="448" height="242" alt="image" src="https://github.com/user-attachments/assets/2bbbbbc1-d3eb-478b-9008-ff62bbed1bee" />
+
 
 
 ## Project Structure
